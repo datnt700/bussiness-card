@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f5f9;
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.card {
+  max-width: 420px;
+  margin: 10rem auto;
+}
+
+.container {
+  border-radius: 20px;
+  border: 0.5px solid transparent;
+  background-color: #ffffff;
+}
+
+.header {
+  width: 100%;
+}
+
+.image {
+  position: relative;
+}
+.image .image-card {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.image .image-overlay {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.content {
+  padding: 0 1.5rem;
+}
+.content .title {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+}
+.content .description {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #677489;
+}
+
+.line {
+  border: 1px solid #f2f5f9;
+  margin: 2rem 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1.5rem 1rem;
+}
+.footer .avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 0 #677489;
+}
+.footer .author {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.footer .author .name {
+  font-size: 1rem;
+}
+.footer .author .address {
+  color: #677489;
+}
+
+/*# sourceMappingURL=style.css.map */
